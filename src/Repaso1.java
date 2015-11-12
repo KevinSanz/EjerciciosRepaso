@@ -10,6 +10,7 @@ public class Repaso1 extends acm.program.GraphicsProgram{
 	//declaro una variable de instancia para guardar el rect‡ngulo
 	GRect rectangulo;
 	
+	
 	//recuerda que el init se ejecuta siempre antes que el run
 	public void init(){
 		setSize(800,600);
@@ -22,6 +23,6 @@ public class Repaso1 extends acm.program.GraphicsProgram{
 	public void run(){
 		//a–ado el objeto GRect al lienzo para que se muestre
 		//si no especifico la posici—n, aparece en (0,0)
-		add(rectangulo);
+		add(rectangulo,getWidth()/2-60,0);
 	}
 }
