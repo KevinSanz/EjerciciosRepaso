@@ -5,7 +5,7 @@
 //importamos la librer’a acm para los objetos gr‡ficos
 import acm.graphics.*;
 
-public class Repaso1 extends acm.program.GraphicsProgram{
+public class Repaso2 extends acm.program.GraphicsProgram{
 
 	//declaro una variable de instancia para guardar el rect‡ngulo
 	GRect rectangulo;
@@ -23,6 +23,6 @@ public class Repaso1 extends acm.program.GraphicsProgram{
 	public void run(){
 		//a–ado el objeto GRect al lienzo para que se muestre
 		//si no especifico la posici—n, aparece en (0,0)
-		add(rectangulo);
+		add(rectangulo,getWidth()/2-60,0);
 	}
 }
